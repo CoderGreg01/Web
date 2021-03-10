@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+/* .nav {
+  
+} */
+.nav-wrapper {
+    background-color: black;
+}
+.brand-logo.center {
+    color: white;
+    font-size: 8.1rem;
+}
+.Home {
+    color: white;
+}
+.Aboutus {
+    color: white;
+}
+.Gallery {
+    color: white;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; /* Footer problem */
+  } 
+  main {
+    flex: 1 0 auto;
+  }
+  .imglogo {
+    margin-top: -15px;
+    height: 100px;
+  }
+ #footer-copyright {
+    background-color: black;
+}
+  footer.page-footer {
+    background-color: darkgrey
+}
+.InstagramFeed {
+    border: black 1px solid;
+    width: 70%;
+    margin: 25px;
+    display: flex;
+}
+.info {
+    border: black 1px solid;
+    width: 30%;
+    margin: 25px;
+    background-color: black;
+    border-radius: 3%;
+    box-shadow: 0.5px 0.5px 5px 0px;
+}
+.instawrapper {
+    display: flex;
+}
+.h1home {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 40%;
+    text-decoration: underline;
+}
+.Home, .Aboutus, .Gallery, .Contact { 
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.Home:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.Aboutus:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.Gallery:hover:after { 
+width: 100%; 
+left: 0; 
+}
+.Contact:hover:after { 
+width: 100%; 
+left: 0; 
+}
+.carousel.carousel-slider.center {
+    margin-right: 10px;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .middle-indicator{
+     position:absolute;
+     top:50%;
+     }
+    .middle-indicator-text{
+     font-size: 4.2rem;
+    }
+    a.middle-indicator-text{
+      color:white !important;
+    }
+  .content-indicator{
+      width: 64px;
+      height: 64px;
+      background: none;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; 
+    }
+      .indicators{
+        visibility: hidden;
+    }
+ 
+  #carouselcon {
+    height: 600px;
+  }
+  .carousel-item.red.white-text, .carousel-item.amber.white-text, .carousel-item.green.white-text, .carousel-item.blue.white-text {
+    margin-top: 3%;
+  }
+  .firstimage {
+      width: 100%;
+      height: 100%;
+  }
+  .secondimage {
+      width: 100%;
+      height: 100%;
+  }
+  .contact-form{
+    margin: 15px 15px 15px 15px;
+    width: 55%;
+    border: 2px solid #40739e;
+    padding: 10px;
+    box-shadow: 2px #079992;
+    height: 460.49999px;
+    }
+    #ContactButton{
+    transition: 1s;
+    border-radius: 3px;
+    margin-top: 20px;    
+    width: 100%;    
+    height: 50px;    
+    background-color: #fd510d;    
+    float:left;    
+    color: white;    
+    font-weight: bold;
+    cursor: pointer;
+    border-color: none;
+    }
+    #ContactButton:hover{
+    transition: 1s;
+    background-color: #FF9529;
+    }
+    #subject{
+    margin-bottom: 30px;
+    }
+    #txtarea{
+    height: 177px; 
+    font-size: 18px;
+    /* padding: 88px; */
+    }
+    .GMContact{
+    margin: 15px 15px 15px 15px;
+    width: 40%;
+    border: 2px solid #079992;
+    /* height: 300px; */
+    }
+    #title1 {
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #079992;
+    margin: 0px;
+    text-align: center;
+    }
+    .gmcontactwrap {
+      display: flex;
+    }
+  
